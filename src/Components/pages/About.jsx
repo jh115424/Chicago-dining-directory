@@ -1,11 +1,9 @@
 import React from "react";
 
-export const Carnivore = () => {
+export const About = () => {
   return (
     <div>
-      <h1>Carnivore</h1>
-
-  
+      <h1>About</h1>
 
       </div>
      

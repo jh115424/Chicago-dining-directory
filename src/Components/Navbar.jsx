@@ -39,6 +39,13 @@ export const Navbar = () => {
                 <h3>Vegan</h3>
               </Link>
             </li>
+            <li>
+              <Link to="/about">
+                <h3>About</h3>
+              </Link>
+            </li>
+            
+           
           </ul>
         </div>
       </div>

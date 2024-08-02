@@ -8,29 +8,8 @@ body {
     rgba(255, 0, 0, 0),
     rgb(179, 194, 210)
   );
-  /* background: radial-gradient(rgb(10, 10, 132)); */
+ 
 }
 
-/* .title {
-  background-color: whitesmoke;
-  font-size: 20px;
-  font-family: "Italic", "Helvetica Neue", Helvetica, Arial;
-  height: 75px;
-  display: flex;
-  margin-left: 2px;
-  margin-top: auto;
-  flex-direction: column-reverse;
-  padding-top: 3px;
-  padding-left: 2px;
-}
-
-.header-logo {
-  display: flex;
-  height: 50px;
-  width: 100px;
-  border-radius: 50%;
-  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
-  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
-} */
 
 

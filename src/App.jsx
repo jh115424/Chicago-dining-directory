@@ -1,9 +1,9 @@
 // import React from "react";
 import { Navbar } from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import { Home, Seafood, Carnivore, Vegan } from "./Components/pages/index";
+import { Home, Seafood, Carnivore, Vegan, About } from "./Components/pages/index";
 
-
+import "./Home.css";
 import "./App.css";
 
 function App() {
@@ -15,7 +15,11 @@ function App() {
         <Route path="/seafood" element={<Seafood />} />
         <Route path="/carnivore" element={<Carnivore />} />
         <Route path="/vegan" element={<Vegan />} /> 
+        <Route path="/about" element={<About />} />
+     
       </Routes>
+
+
     </div>
   );
 }
