@@ -2,8 +2,21 @@ import React from "react";
 
 import { useState } from "react";
 
-export const Home = (props) => {
+export const Home = (setUserInput, userInput) => {
+  const [seafoodRestaurants, setSeafoodRestaurants] = useState([]);
+  const [carnivoreRestaurants, setCarnivoreRestaurants] = useState([]);
+  const [veganRestaurants, setVeganRestaurants] = useState([]);
+  const [restaurants, setRestaurantsInput] = useState([]);
+
+
+  const handleChange = (e) => {
+    setUserInput(e.target.value);
+  };
+
   return (
+
+
+
     <>
       <div>
         <h1 className="home">Home</h1>
@@ -15,6 +28,11 @@ export const Home = (props) => {
             <input
               type="text"
               placeholder="Search for restaurant"
+              onChange = {(e) => {
+                e.preventDefault();
+                handleChange(e);
+              }}
+              value = {userInput}
               className="search-bar"
             />
           </form>
